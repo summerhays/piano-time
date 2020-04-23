@@ -1,0 +1,29 @@
+en:
+- title: <i class="fas fa-home" style="padding=0;"></i>
+  subtitle: Home  
+  link: /index.html
+- title: About Me <i class='far fa-address-card'></i>
+  subtitle: About Me
+  link: /about
+- title: Lessons <i class="fas fa-key"></i>
+  subtitle: What Lessons Are Like
+  link: /lessons
+- title: Resources <i class="fas fa-book-reader"></i>
+  link: /resources
+- title: Contact <i class='far fa-envelope-open'></i>
+  link: /contact
+
+fr: 
+- title: <i class="fas fa-home fa-lg" style="padding=0;"></i>
+  subtitle: Accueil  
+  link: /index-fr.html
+- title: À propos <i class='far fa-address-card'></i>
+  subtitle: À propos
+  link: /a_propos
+- title: Les cours <i class="fas fa-key"></i>
+  subtitle: Les cours ressemblent à quoi
+  link: /cours
+- title: Ressources <i class="fas fa-book-reader"></i>
+  link: /ressources
+- title: Contact <i class='far fa-envelope-open'></i>
+  link: /contactez-nous

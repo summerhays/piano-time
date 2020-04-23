@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {% if page.lang == "fr" %}Prof de piano{% else %}Piano Teacher{% endif %}</title>
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/w3.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {% if page.lang == "fr" %}Prof de piano{% else %}Piano Teacher{% endif %}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img class="img_40" src="{{ site.avatar }}" /></a>
+
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{% if page.lang == "fr" %}Professeur de piano{% else %}Piano Teacher{% endif %}</p>
+          </div>
+
+          <nav>
+          {% if page.lang == "fr" %} {% assign doclist = site.data.navigation.fr %}{% else %} {% assign doclist = site.data.navigation.en %}{% endif %}
+          {% for item in doclist %}
+	  <a href="{{ site.baseurl }}{{ item.link }}" title="{{ item.subtitle }}" class="{% if item.link == page.url %}active{% endif %}">{{ item.title }}</a>
+	  {% endfor %}
+	  <!-- language changer button -->
+  {% if page.trans %}
+  {% if page.lang == "fr" %}{% assign otherlang = "en" %}{% elsif page.lang == "en" %}{% assign otherlang = "fr" %}{% endif %}
+  {% assign otherurl = nil %}
+        {% for each in site.pages %}
+        {% if each.trans == page.trans and each.lang == otherlang %}{% assign otherurl = each.url %}{% endif %}
+        {% endfor %}
+  {% unless otherurl %}
+        {% for each in site.posts %}
+        {% if each.trans == page.trans and each.lang == otherlang %}{% assign otherurl = each.url %}{% endif %}
+        {% endfor %}
+  {% endunless %}
+  {% if otherurl %}
+  <a class="" href="javascript:void(0);" id="response" onclick="flipIcon()">{% if page.lang == "fr" %}English{% elsif page.lang == "en" %}Français{% endif %} &nbsp;<i id="flippy" class="fas fa-random"></i></a>
+  <a href="{{ otherurl }}" id="flippy2" style="display: none;"></a>
+  {% endif %}
+  {% endif %}
+
+
+
+
+          </nav>
+        </header>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          Summerhays Piano <br>
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+    <script src="/assets/js/scripts.js"></script>
+  </body>
+</html>
