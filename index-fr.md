@@ -55,7 +55,6 @@ J'ai été formé en musique à la Sorbonne et en pédagogie de musique dans un 
      <p>Contactez-moi avec toute question ou pour réservez un cours</p>
      <hr>
      <br>
-     <br>
   </div>
 </a>
    </div>
