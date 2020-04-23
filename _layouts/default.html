@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {% if page.lang == "fr" %}Prof de piano{% else %}Piano Teacher{% endif %}</title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }} – {% if page.lang == "fr" %}Prof de piano{% else %}Piano Teacher{% endif %}</title>
 
     {% include meta.html %}
 
@@ -12,7 +12,7 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/w3.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/all.css">
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {% if page.lang == "fr" %}Prof de piano{% else %}Piano Teacher{% endif %}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }} - {% if page.lang == "fr" %}Prof de piano{% else %}Piano Teacher{% endif %}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
@@ -24,7 +24,7 @@
           <a href="{{ site.baseurl }}/" class="site-avatar"><img class="img_40" src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
             <p class="site-description">{% if page.lang == "fr" %}Professeur de piano{% else %}Piano Teacher{% endif %}</p>
           </div>
 
