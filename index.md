@@ -20,7 +20,7 @@ Trained as a teacher from the music learning laboratory (Verhoog Music Institute
      <br>
     </header>
     <div class="w3-container w3-light-grey w3-center">
-      <p>Read what my students are saying</p>
+      <p>Read what my piano students are saying</p>
       <hr>
       <br>
     </div>
