@@ -6,15 +6,15 @@ lang: en
 trans: lessons
 ---
 
-<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">HOW MUCH DO PIANO LESSONS COST?</button>
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">+ HOW MUCH DO PIANO LESSONS COST?</button>
 <div id="Demo1" class="w3-container w3-hide w3-animate-opacity">
   <p>Piano lessons are sliding scale up to 50$ an hour</p>
 </div>
-<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">WHERE ARE PIANO LESSONS HELD?</button>
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">+ WHERE ARE PIANO LESSONS HELD?</button>
 <div id="Demo2" class="w3-container w3-hide w3-animate-opacity">
   <p>Video stream, at a studio space, the student's home or my home in Montreal</p>
 </div>
-<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">CAN I TRY A LESSON FOR FREE?</button>
+<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">+ CAN I TRY A LESSON FOR FREE?</button>
 <div id="Demo3" class="w3-container w3-hide w3-animate-opacity">
   <p>Sure, I'll bring up this possibility.</p>
 </div>
