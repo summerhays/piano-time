@@ -6,31 +6,31 @@ lang: fr
 trans: lessons
 ---
 
-<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">LES COURS COÛTENT COMBIEN?</button>
+<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">+ LES COURS COÛTENT COMBIEN?</button>
 <div id="Demo1" class="w3-container w3-hide w3-animate-opacity">
   <p>Les tarifs varient selon une échelle mobile jusqu'à un maximum de $50 de l'heure</p>
 </div>
-<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">OÙ SE TIENNENT LES COURS?</button>
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">+ OÙ SE TIENNENT LES COURS?</button>
 <div id="Demo2" class="w3-container w3-hide w3-animate-opacity">
   <p>Par vidéoconférence, dans un studio, chez l'étudiant.e ou chez nous à Montréal.</p>
 </div>
-<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">PUIS-JE ESSAYER UN COURS SANS PAYER?</button>
+<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">+ PUIS-JE ESSAYER UN COURS SANS PAYER?</button>
 <div id="Demo3" class="w3-container w3-hide w3-animate-opacity">
   <p>Sans problème, nous pouvons faire une consultation gratuite.</p>
 </div>
-<button onclick="myFunction('Demo4')" class="w3-button w3-block w3-black w3-left-align">QUELS GROUPES D'ÂGE PEUX-TU ENSEIGNER?</button>
+<button onclick="myFunction('Demo4')" class="w3-button w3-block w3-black w3-left-align">+ QUELS GROUPES D'ÂGE PEUX-TU ENSEIGNER?</button>
 <div id="Demo4" class="w3-container w3-hide w3-animate-opacity">
   <p>Il est possible d'apprendre la musique à partir de 2 ans (un cours dure 15 minutes et la présence d'un parent est essentielle). Pour la plupart j'enseigne les adultes -- j'ai une étudiante qui a 80+ ans.</p>
 </div>
-<button onclick="myFunction('Demo5')" class="w3-button w3-block w3-black w3-left-align">TU ENSEIGNE JUSQU'À QUEL NIVEAU D'APPRENTISSAGE?</button>
+<button onclick="myFunction('Demo5')" class="w3-button w3-block w3-black w3-left-align">+ TU ENSEIGNES JUSQU'À QUEL NIVEAU D'APPRENTISSAGE?</button>
 <div id="Demo5" class="w3-container w3-hide w3-animate-opacity">
   <p>J'enseigne des étudiants débutants jusqu'à avancés.</p>
 </div>
-<button onclick="myFunction('Demo6')" class="w3-button w3-block w3-black w3-left-align">QU'EST-CE QUE TU ENSEIGNES LE MIEUX?</button>
+<button onclick="myFunction('Demo6')" class="w3-button w3-block w3-black w3-left-align">+ QU'EST-CE QUE TU ENSEIGNES LE MIEUX?</button>
 <div id="Demo6" class="w3-container w3-hide w3-animate-opacity">
   <p>L'improvisation, l'« apprentissage naturel », comment surmonter des barrières physiques, émotionnelles, et cognitives.</p>
 </div>
-<button onclick="myFunction('Demo7')" class="w3-button w3-block w3-black w3-left-align">QUEL EST LE SENS DE LA VIE?</button>
+<button onclick="myFunction('Demo7')" class="w3-button w3-block w3-black w3-left-align">+ QUEL EST LE SENS DE LA VIE?</button>
 <div id="Demo7" class="w3-container w3-hide w3-animate-opacity">
   <p>La musique, bien sûr!</p>
 </div>
