@@ -6,31 +6,31 @@ lang: en
 trans: lessons
 ---
 
-<button onclick="myFunction('Demo1')" class="w3-button w3-block w3-black w3-left-align">+ HOW MUCH DO PIANO LESSONS COST?</button>
+<button onclick="myFunction('Demo1')" id="Demo1btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ HOW MUCH DO PIANO LESSONS COST?</button>
 <div id="Demo1" class="w3-container w3-hide w3-animate-opacity">
   <p>Piano lessons are sliding scale up to 50$ an hour</p>
 </div>
-<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-black w3-left-align">+ WHERE ARE PIANO LESSONS HELD?</button>
+<button onclick="myFunction('Demo2')" id="Demo2btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ WHERE ARE PIANO LESSONS HELD?</button>
 <div id="Demo2" class="w3-container w3-hide w3-animate-opacity">
   <p>Video stream, at a studio space, the student's home or my home in Montreal</p>
 </div>
-<button onclick="myFunction('Demo3')" class="w3-button w3-block w3-black w3-left-align">+ CAN I TRY A LESSON FOR FREE?</button>
+<button onclick="myFunction('Demo3')" id="Demo3btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ CAN I TRY A LESSON FOR FREE?</button>
 <div id="Demo3" class="w3-container w3-hide w3-animate-opacity">
   <p>Sure.</p>
 </div>
-<button onclick="myFunction('Demo4')" class="w3-button w3-block w3-black w3-left-align">+ WHAT AGES DO YOU TEACH?</button>
+<button onclick="myFunction('Demo4')" id="Demo4btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ WHAT AGES DO YOU TEACH?</button>
 <div id="Demo4" class="w3-container w3-hide w3-animate-opacity">
   <p>I teach kids starting at age 2 (lessons aren't very long and need the parent at that age, but I can teach a kid perfect pitch). I mostly teach adults.</p>
 </div>
-<button onclick="myFunction('Demo5')" class="w3-button w3-block w3-black w3-left-align">+ WHAT SKILL LEVEL DO YOU TEACH?</button>
+<button onclick="myFunction('Demo5')" id="Demo5btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ WHAT SKILL LEVEL DO YOU TEACH?</button>
 <div id="Demo5" class="w3-container w3-hide w3-animate-opacity">
   <p>I teach beginning to early advanced students.</p>
 </div>
-<button onclick="myFunction('Demo6')" class="w3-button w3-block w3-black w3-left-align">+ WHAT DO YOU TEACH BEST?</button>
+<button onclick="myFunction('Demo6')" id="Demo6btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ WHAT DO YOU TEACH BEST?</button>
 <div id="Demo6" class="w3-container w3-hide w3-animate-opacity">
   <p>Improvisation, "natural learning", overcoming physical, emotional, and cognitive barriers.</p>
 </div>
-<button onclick="myFunction('Demo7')" class="w3-button w3-block w3-black w3-left-align">+ WHAT IS THE MEANING OF LIFE?</button>
+<button onclick="myFunction('Demo7')" id="Demo7btn" class="w3-button w3-block w3-black w3-border w3-hover-white w3-left-align">+ WHAT IS THE MEANING OF LIFE?</button>
 <div id="Demo7" class="w3-container w3-hide w3-animate-opacity">
   <p>Music of course</p>
 </div>
@@ -48,10 +48,16 @@ For beginners, my philosophy is that it's important to have a "breezy" attitude 
 <script>
 function myFunction(id) {
   var x = document.getElementById(id);
+  var btnid = id + "btn";
+  var y = document.getElementById(btnid).innerHTML;
+  var min = y.replace("+ ", "- ");
+  var max = y.replace("- ", "+ ");
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
+    document.getElementById(btnid).innerHTML = min;
   } else { 
     x.className = x.className.replace(" w3-show", "");
+    document.getElementById(btnid).innerHTML = max;
   }
 }
 </script>

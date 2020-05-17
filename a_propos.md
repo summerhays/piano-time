@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /a_propos
-title: À propos David
+title: À propos de David
 lang: fr
 trans: about
 ---

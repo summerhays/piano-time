@@ -1,5 +1,5 @@
 en:
-- title: <i class="fas fa-home" style="padding=0;"></i>
+- title: Home <i class="fas fa-home" style="padding=0;"></i>
   subtitle: Home  
   link: /index.html
 - title: About Me <i class='far fa-address-card'></i>
@@ -14,7 +14,7 @@ en:
   link: /contact
 
 fr: 
-- title: <i class="fas fa-home fa-lg" style="padding=0;"></i>
+- title: Accueil <i class="fas fa-home" style="padding=0;"></i>
   subtitle: Accueil  
   link: /index-fr.html
 - title: À propos <i class='far fa-address-card'></i>
