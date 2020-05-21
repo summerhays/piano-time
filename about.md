@@ -29,7 +29,9 @@ I also [tune and repair](https://tune.summerhays.net) pianos
 Author of “Smart but Stuck: Resilience with Learning Disabilities”
 
   > If you have a chance to learn piano from David, take it.
+  >
   > He is a rare teacher like Robin William in the Dead Poets Society. 
+  >
   > I learned to have fun and relax, and David made it easy to progress. David is out of the box, smart and has a contagious approach to life that transfers to music. He is a genuine inspiration.
 
 ###### --Adult student via videochat
