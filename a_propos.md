@@ -13,7 +13,7 @@ En plus, [j'accorde et je répare](https://accord.summerhays.net) les pianos.
 
 ### __Résultats__
 
-  > **Et moi, je pensais pas être capable à l'âge que j'ai**
+  > **Et moi, je pensais pas être capable à l'âge que j'ai.**
   >
   > Depuis bien trop longtemps, le piano était un instrument frustrant pour moi. Maintenant, je me concentre sur le plaisir de la musique.
   >
@@ -28,9 +28,9 @@ L'auteure de _Smart but Stuck: Resilience with Learning Disabilities_
 
   > Si vous avez l'opportunité d'avoir David comme professeur, faites-le.
   >
-  > Il est un professeur comme on en voit rarement, comme le personnage de Robin William dans le film La Société des Poètes Disparus. Il vous emmènera à avoir du plaisir et être relax au piano. Il vous aidera à trouver la façon pour votre cerveau à comprendre comment jouer l'instrument efficacement, ce qui permet des progrès rapide à travers le processus d'apprentissage.
+  > Il est un professeur comme on en voit rarement, comme le personnage de Robin William dans le film La Société des Poètes Disparus. Il m'a emmènera à avoir du plaisir et être relax au piano. Il vous aidera à trouver la façon pour votre cerveau à comprendre comment jouer l'instrument efficacement, ce qui permet des progrès rapide à travers le processus d'apprentissage.
   >
-  > Comme Mr. Keating dans le film, David pense totalement en dehors de la norme, il est intelligent et a une approche de vie très positive et contagieuse qui se transfert absolument à jouer un instrument. Il est une vraie inspiration. J'ai appris beaucoup et je continue à apprendre avec joie avec lui.
+  > Comme Mr. Keating dans le film, David pense totalement en dehors de la norme, il est intelligent et a une approche de vie très positive et contagieuse qui se transfert absolument à jouer un instrument. Il est une vraie inspiration.
 
 
 ##### --Étudiante francophone qui apprend par vidéoconférence
