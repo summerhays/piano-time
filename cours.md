@@ -37,7 +37,9 @@ trans: lessons
 
 ## Méthode
 
-Selon ma méthode, le piano doit être *facile* et je mets beaucoup l'accent sur un processus d'*apprentissage naturel*. Si l'on présente un casse-tête cognitif clair à l'inconscient, il n'est pas nécessaire de pratiquer (même s'il ne nuit pas au processus non plus de pratiquer): le corps résout naturellement le *puzzle* en quelques jours. Par contre, la plupart de l'enseignement musical présente des casse-têtes pas clairs, trop complexes, avec le résultat que l'étudiant apprend très peu, même avec beaucoup de pratique. Honnêtement, j'ai plus peur que mes étudiant.e.s répètent trop; j'ai jamais eu un problème avec un étudiant qui ne jouait pas assez. Voilà la force de l'apprentissage par des casse-têtes, où le moteur est des questions et la sensibilisation.
+Selon ma méthode, le piano doit être *facile*; je mets beaucoup l'accent sur un processus d'*apprentissage naturel*. J'essaie de présenter un casse-tête clair à l'étudiant au piano. Si le casse-tête est au bon niveau, l'inconscient de l'étudiant.e va le résoudre sans l'intervention. Il n'est même pas nécessaire de pratiquer (même s'il n'est pas mauvais de pratiquer). 
+
+Beaucoup d'enseignants semblent présenter des casse-têtes trop complexes, avec le résultat que l'étudiant apprend très peu, même avec beaucoup d'effort. Honnêtement, j'ai plus peur que mes étudiant.e.s répètent trop que pas assez. Voilà la force de l'apprentissage par des casse-têtes, où le moteur est des questions et la sensibilisation.
 
 ## À quoi ressemble les cours pour les débutants?
 
