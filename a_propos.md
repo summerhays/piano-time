@@ -37,4 +37,4 @@ L'auteure de _Smart but Stuck: Resilience with Learning Disabilities_
 
 ### J'embarque
 
-[Contactez-moi](/contact-fr)
+[Contactez-moi](/contactez-nous)
