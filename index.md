@@ -9,7 +9,7 @@ Trained as a teacher from the music learning laboratory (Verhoog Music Institute
 
 *****
 
- <div class="w3-container">
+<div class="w3-container">
 <div class="w3-row-padding">
 
   <div class="w3-third w3-section">
